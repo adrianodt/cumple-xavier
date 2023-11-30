@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Outfit:wght@300;400&family=Pacifico&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(116, 88, 100);
+    background: radial-gradient(
+        circle,
+        rgb(45, 164, 243) 0%,
+        rgb(141, 38, 119) 100%
+    );
+}
+
+.container-1 {
+    margin: 0px auto;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 320px;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.card-container {
+    text-align: center;
+    width: 100%;
+    border-radius: 15px;
+    border: solid 4px white;
+}
+
+header {
+    height: 280px;
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url("/img/fondo-header.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.separator {
+    height: 1px;
+    background-color: #403c52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.separator img {
+    z-index: 1;
+    width: 100%;
+}
+
+main {
+    background-image: url("/img/fondo-main.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-radius: 0 0 10px 10px;
+    color: white;
+    text-shadow: #120055 1px 0 10px;
+}
+
+main .text1 h2 {
+    margin-top: 45px;
+    padding: 10px 20px;
+    font-size: 40px;
+    font-family: "Pacifico", cursive;
+}
+
+main .text2 {
+    margin-top: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    /* text-shadow: white 1px 0 10px; */
+}
+
+main .text3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    /* text-shadow: white 1px 0 10px; */
+}
+
+main .text4 {
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Josefin Sans", sans-serif;
+    /* text-shadow: white 1px 0 10px; */
+}
+
+main .text4 img {
+    width: 95%;
+}
+
+.btn-whatsapp {
+    margin-top: 10px;
+}
+
+.conteo {
+    margin-top: 10px;
+    color: white;
+    /* text-shadow: white 1px 0 10px; */
+    font-family: "Pacifico", cursive;
+    font-size: 40px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-family: "Outfit", sans-serif;
+    color: antiquewhite;
+    margin-top: 10px;
+     text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
